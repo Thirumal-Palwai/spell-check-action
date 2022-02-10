@@ -1,0 +1,18 @@
+name: "[Put your action name]"
+description: "[Short description about action and its purpose.]"
+author: "[Author name and email id]"
+branding:
+  color: green
+  icon: shield
+
+inputs:
+  [input tag]:
+    description: "[Description about the input tag.]"
+    required: [true/false]
+  [input tag]:
+    description: "[Description about the input tag.]"
+    required: [true/false]
+runs:
+  using: docker
+  image: Dockerfile
+
